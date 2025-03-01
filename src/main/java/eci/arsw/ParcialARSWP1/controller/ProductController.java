@@ -36,8 +36,4 @@ public class ProductController {
          return productService.addProduct(product.getNombre(), product.getPrecio());
     }
 
-//    @PostMapping
-//    public EntityResponse<Object> addProduct1(@RequestBody Product product) {
-//        return productService.addProduct(product.getNombre(), product.getPrecio());
-//    }
 }
